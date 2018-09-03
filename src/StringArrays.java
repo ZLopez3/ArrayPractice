@@ -31,6 +31,7 @@ public class StringArrays {
 			System.out.println("This is a bsic output change");
 		} 
 		add(21,45);
+		scan.close();
 	}
 
 }
