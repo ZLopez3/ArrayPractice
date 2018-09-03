@@ -19,6 +19,7 @@ public class StringArrays {
 		}
 		for(String t: second) {
 			System.out.println("The world as " + (t)+".");
+			System.out.println("This is a bsic output change");
 		} 
 	}
 
