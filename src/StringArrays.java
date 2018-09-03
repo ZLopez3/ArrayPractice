@@ -8,6 +8,11 @@ public class StringArrays {
 
 	private static String[] second = { "have seen it", "have heard it", "have felt it" };
 	
+	public static int add(int x, int y) {
+		int z = x+y;
+		return z;
+	}
+	
 	public static void main(String[] args) {
 		 Scanner scan = new Scanner(System.in);
 		 System.out.println("Type your name");
@@ -25,6 +30,7 @@ public class StringArrays {
 			System.out.println("The world as " + (t)+".");
 			System.out.println("This is a bsic output change");
 		} 
+		add(21,45);
 	}
 
 }
