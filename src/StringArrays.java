@@ -28,9 +28,11 @@ public class StringArrays {
 		}
 		for(String t: second) {
 			System.out.println("The world as " + (t)+".");
-			System.out.println("This is a bsic output change");
+			System.out.println("This is a basic output change");
 		} 
-		add(21,45);
+		
+		System.out.println(add(21,45));
+		scan.close();
 	}
 
 }
